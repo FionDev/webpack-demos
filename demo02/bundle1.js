@@ -62,6 +62,11 @@
 				__webpack_require__(2);
 
 			});
+
+			$('img').on('click',function(){
+				$(this).attr('src',__webpack_require__(7));
+				
+			});
 	});
 
 
@@ -9615,6 +9620,12 @@
 			URL.revokeObjectURL(oldSrc);
 	}
 
+
+/***/ },
+/* 7 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "fb2fcb2bd3a53305912d956e14eeec66.jpg"
 
 /***/ }
 /******/ ]);

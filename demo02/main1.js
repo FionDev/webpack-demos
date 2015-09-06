@@ -16,4 +16,9 @@ $(function(){
 			require('./main2.js');
 
 		});
+
+		$('img').on('click',function(){
+			$(this).attr('src',require('./big.jpg'));
+			
+		});
 });
