@@ -16,5 +16,4 @@ $(function(){
 			require('./main2.js');
 
 		});
-
 });

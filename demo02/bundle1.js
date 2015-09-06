@@ -62,7 +62,6 @@
 				__webpack_require__(2);
 
 			});
-
 	});
 
 
@@ -9312,8 +9311,8 @@
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../node_modules/css-loader/index.js?minimize!./style.css", function() {
-				var newContent = require("!!./../node_modules/css-loader/index.js?minimize!./style.css");
+			module.hot.accept("!!./../node_modules/css-loader/index.js!./../node_modules/autoprefixer-loader/index.js!./style.css", function() {
+				var newContent = require("!!./../node_modules/css-loader/index.js!./../node_modules/autoprefixer-loader/index.js!./style.css");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -9331,7 +9330,7 @@
 
 
 	// module
-	exports.push([module.id, "body{background-color:#ff0}", ""]);
+	exports.push([module.id, "\r\ndiv.class1{\r\n\tdisplay: -webkit-box;\r\n\tdisplay: -webkit-flex;\r\n\tdisplay: -ms-flexbox;\r\n\tdisplay: flex;\r\n}\r\nbody{\r\n\tbackground-color: yellow;\r\n}", ""]);
 
 	// exports
 

@@ -27,6 +27,7 @@
   },
   "repository": "ruanyf/webpack-demos",
   "devDependencies": {
+    "autoprefixer-loader": "^2.1.0",
     "css-loader": "^0.16.0",
     "style-loader": "^0.12.3"
   }
