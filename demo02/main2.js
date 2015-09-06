@@ -3,7 +3,7 @@ document.write('<h2>Hello Webpack</h2>');
 
 $(function(){
 	$('h2').on('click',function(){
-		require('./main2.js');
-	});
-	
+			require('./style.css');
+
+		});
 });
