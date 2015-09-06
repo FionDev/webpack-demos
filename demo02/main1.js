@@ -9,7 +9,12 @@ function load_main2(){
 window.load_main2=load_main2;
 //------------------
 
-$('button').on('click',function(){
-	require('./main2.js');
+//load的時候在
+$(function(){
+	
+		$('button').on('click',function(){
+			require('./main2.js');
+
+		});
 
 });

@@ -55,8 +55,13 @@
 	window.load_main2=load_main2;
 	//------------------
 
-	$('button').on('click',function(){
-		__webpack_require__(2);
+	//load的時候在
+	$(function(){
+		
+			$('button').on('click',function(){
+				__webpack_require__(2);
+
+			});
 
 	});
 
@@ -9279,9 +9284,17 @@
 
 /***/ },
 /* 2 */
-/***/ function(module, exports) {
+/***/ function(module, exports, __webpack_require__) {
 
+	var $=__webpack_require__(1);
 	document.write('<h2>Hello Webpack</h2>');
+
+	$(function(){
+		$('h2').on('click',function(){
+			__webpack_require__(2);
+		});
+		
+	});
 
 
 /***/ }
