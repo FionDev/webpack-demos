@@ -9625,7 +9625,7 @@
 /* 7 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__.p + "fb2fcb2bd3a53305912d956e14eeec66.jpg"
+	module.exports = __webpack_require__.p + "./img/google-fb2fcb.jpg?fb2fcb2bd3a53305912d956e14eeec66"
 
 /***/ }
 /******/ ]);

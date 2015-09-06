@@ -8,8 +8,9 @@ module.exports = {
   },
 	module: {
 	loaders: [
-			{ test: /\.css$/, loader: "style!css!autoprefixer" },
-      { test: /\.png|jpg|gif$/, loader: "url?limit=8000" }
+			{ test: /\.css$/, loader: "style!css!autoprefixer" }
+      //,
+      //{ test: /\.png|jpg|gif$/, loader: "url?limit=8000" }
 		]
 	}
 };

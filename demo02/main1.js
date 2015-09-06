@@ -18,7 +18,7 @@ $(function(){
 		});
 
 		$('img').on('click',function(){
-			$(this).attr('src',require('./big.jpg'));
+			$(this).attr('src',require('file?name=./img/google-[hash:6].[ext]?[hash]!./big.jpg'));
 			
 		});
 });
